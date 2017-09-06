@@ -13,7 +13,7 @@ var config = {
   src: {
     js: {
       all: './src/**/*.js',
-      main: './index.js',
+      main: './lib/index.js',
       watch: './public/js/**/*.js',
       output: 'app.built.js',
       min: 'app.built.min.js'

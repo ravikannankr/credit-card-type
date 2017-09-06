@@ -3,9 +3,7 @@
   "version": "5.0.4",
   "description": "A library for determining credit card type",
   "main": "index.js",
-  "browser": {
-    "index.js": "dist/js/app.built.min.js"
-  },
+  "browser": "dist/js/app.built.min.js",
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint && mocha test/**/*.js",
