@@ -2,8 +2,7 @@
   "name": "credit-card-type",
   "version": "5.0.4",
   "description": "A library for determining credit card type",
-  "main": "index.js",
-  "browser": "dist/js/app.built.min.js",
+  "main": "dist/js/app.built.min.js",
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint && mocha test/**/*.js",
